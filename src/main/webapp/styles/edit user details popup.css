@@ -1,0 +1,172 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.signUppopup h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.signUppopup input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.signUppopup label {
+    color: #888;
+    font-size: 12px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.signUppopup button {
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.signUppopup button:hover {
+    opacity: .7;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.signUppopup h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.ca:hover {
+    text-decoration: underline;
+}
+
+.signUppopup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 101;
+    display: none;
+}
+
+.signUppopup .content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 500px;
+    height: 93vh;
+    z-index: 102;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.signUppopup .closebtn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signUppopup .closebtn:hover {
+    background: #222;
+    color: white;
+    border-radius: 50%;
+}
+
+.signUppopup.active .overlay {
+    display: block;
+}
+
+.signUppopup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.dobblabel {
+    display: inline-block;
+}
+
+#gender {
+    width: 100px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#dobb {
+    width: 150px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.name {
+    display: inline-block;
+}
+
+#firstnameinput {
+    width: 210px;
+    margin-left: 10px;
+}
+
+#lastnameinput {
+    width: 210px;
+    margin-left: 10px;
+}
+
+#phone {
+    width: 150px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin: 5px auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}

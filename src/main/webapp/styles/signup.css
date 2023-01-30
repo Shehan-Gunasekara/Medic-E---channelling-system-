@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section{
+      position: fixed;
+  } */
+
+.logo {
+    position: fixed;
+    top: 30px;
+    left: 70px;
+    z-index: 1;
+}
+
+.imgBx{
+    position: fixed;
+}
+
+
+.gender {
+    float: left;
+}
+
+.dob1 {
+    float: right;
+}
+
+.arrow {
+    border: solid #666666;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px 5px 5px 2px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+section .contentBx .formBx h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+
+}
+
+section .contentBx .formBx h4 a {
+    text-decoration: none;
+    color: #666666;
+}
+
+section .contentBx .formBx {
+    position: absolute;
+    width: 130px;
+    height: 56px;
+    left: 900px;
+    top: 40px;
+}
+
+section .contentBx .formBx label {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #666666;
+}
+
+section .contentBx .formBx .textbx {
+    background: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    left: 798px;
+    top: 272.02490234375px;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+section .contentBx .formBx h2 {
+    width: 363px;
+    height: 56px;
+
+    margin-top: 20px;
+    margin-bottom: 17px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+
+    color: #000000;
+}
+#supdot{
+    position: absolute;
+    top: 73px;
+    left: 150px;
+    width: 100px;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+#signinSubmit {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px 30px; */
+
+    margin-top: 140px;
+
+    width: 400px;
+    height: 40px;
+
+    background: #0c48bd;
+    border-radius: 10px;
+    border: none;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+section .contentBx .formBx .remember {
+    width: 495px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+section .contentBx .formBx .remember p {
+    float: left;
+}
+
+section .contentBx .formBx .remember a {
+    float: right;
+}
+
+#dhaA {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width: 400px;
+    height: 22px;
+
+    color: #727272;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+#sicheckbox {
+    clear: both;
+    color: #5991FF;
+    padding-bottom: 5px;
+}
+
+section .contentBx .formBx a {
+    color: #5991FF;
+}
+
+#sicheck {
+    accent-color: #5991FF;
+    height: 12px;
+    /* not needed */
+    width: 12px;
+    /* not needed */
+    margin-right: 5px;
+
+
+}
+
+#selectbx{
+    height: 38px;
+width: 100px;
+left: 804px;
+top: 615.26708984375px;
+border-radius: 5px;
+background-color: #E5E5E5;
+border: none;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+#selectbx2{
+    background-color: #E5E5E5;
+    height: 38px;
+    width: 260px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section .contentBx .formBx .line select{
+     float: left;
+}
+
+section .contentBx .formBx .line label{
+    float: right;
+} */
+
+/* class="textbx" */
+
+
+/* #Gender{
+    width: 145px;
+    padding: 10px;
+    float: left;
+  }
+  
+  #dob{
+    width: 100px;
+    padding: 10px;
+    float: right;
+  } */
+
+
+section .contentBx .formBx .line{
+    width: 400px;
+}
+
+section .contentBx .formBx .line .gender {
+    float: left;
+
+}
+
+section .contentBx .formBx .line .dob1 {
+    float: right;
+}

@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+#head {
+  width: 100%;
+  height: 80px;
+  background-color: #EEEEFF;
+  position: fixed;
+  z-index: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  animation: movedown 2s linear 0.5;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-100px);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateY(70px);
+    visibility: visible;
+  }
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  visibility: hidden;
+}
+
+#signup {
+  background: #0c48bd;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 30px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#signup:hover {
+  background: #09348a;
+  font-size: 17px;
+}
+
+.navi {
+  display: inline-flex;
+  position: relative;
+}
+
+.navi-item {
+  color: #000000;
+  padding: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 0 6px;
+  z-index: 1;
+  position: relative;
+}
+
+.navi-item:before {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #dfe2ea;
+  border-radius: 8px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.navi-item:not(.is-active):hover:before {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.navi-item:not(.is-active):hover {
+  color: #333;
+}
+
+.navi-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  height: 3px;
+  transition: 0.4s;
+  height: 3px;
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 4px;
+  position: absolute;
+  top: 20px;
+}

@@ -1,0 +1,140 @@
+.searchbtn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.searchbtn1[data-scroll="in"] {
+    transform: translate(0);
+    transition-delay: 0.2s;
+    opacity: 1;
+  }
+
+#sa{
+    position: absolute;
+left: 81px;
+top: 846px;
+}
+
+#docChanneling {
+  position: absolute;
+  width: 205px;
+  height: 47px;
+  left: 71px;
+  top: 797px;
+
+  background: #f1f6ff;
+}
+
+#chatonline {
+  position: absolute;
+  width: 137px;
+  height: 47px;
+  left: 297px;
+  top: 797px;
+
+  background: #faf9f9;
+}
+
+#covidtest {
+  position: absolute;
+  width: 146px;
+  height: 47px;
+  left: 455px;
+  top: 797px;
+
+  background: #faf9f9;
+}
+
+#searchbarBackGround {
+  position: absolute;
+  width: 1122px;
+  height: 84px;
+  left: 68px;
+  top: 859px;
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+#searchbarBackGround[data-scroll="in"] {
+    transform: translate(0);
+    transition-delay: 0.2s;
+    opacity: 1;
+  }
+
+#searchform input {
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+#docname {
+  position: absolute;
+  width: 296px;
+  height: 38px;
+  left: 108px;
+  top: 882px;
+  padding: 10px;
+}
+
+#hospitalname {
+  position: absolute;
+  width: 296px;
+  height: 38px;
+  left: 434px;
+  top: 882px;
+  padding: 10px;
+}
+
+#date {
+  position: absolute;
+  width: 258px;
+  height: 38px;
+  left: 760px;
+  top: 882px;
+  padding: 10px;
+}
+
+#time {
+  position: absolute;
+  width: 108px;
+  height: 38px;
+  left: 1048px;
+  top: 882px;
+  padding: 10px;
+}
+
+#sectionbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  position: absolute;
+  width: 153px;
+  height: 61px;
+  right: 92px;
+  top: 871px;
+
+  background: #0075ff;
+  border-radius: 8px;
+  border: none;
+}
+
+#sectionbtn:hover{
+    transform: scale(1.05);
+}

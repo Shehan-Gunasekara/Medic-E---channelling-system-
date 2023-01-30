@@ -1,0 +1,101 @@
+.button{
+	width :45%;
+	height :168px;
+ 	text-align : center;
+ 	border : 1px solid #555;
+ 	border-radius :5px ;
+ 	background-color : #8C9CBC;
+ 	box-shadow: 0 15px 20px rgba(0,0,0.5);
+ 	text-align : center;
+ 	font-weight:bold;
+ 	font-family: "Times New Roman", Times, serif;
+ 	animation: movedown 2s linear 0.5;
+ 
+}
+
+.button1{
+ 	
+ 	top : 50px;
+ 	left : 10px;
+ 	position : relative ;	
+}
+
+.button2{
+ 
+ 	top : 50px;
+ 	left : 250px;
+ 	position : relative ;
+}
+
+.button3{
+
+ 	top : 150px;
+ 	left : 10px;
+ 	position : relative ;
+ 	
+}
+.button4{
+
+ 	top : 0px;
+ 	left : 650px;
+ 	position : relative ;
+
+ 	
+}
+.button5{
+
+ 	top : 140px;
+ 	left : 600px;
+ 	position : relative ;
+ 	bottom : 1000px;
+
+ 	
+}
+
+.button1:hover{
+	transform : scale(.95);
+}
+.button2:hover{
+	transform : scale(.95);
+}
+.button3:hover{
+	transform : scale(.95);
+}
+.button4:hover{
+	transform : scale(.95);
+}
+.button5:hover{
+	transform : scale(.95);
+}
+
+.four-col-profile{
+  float: left;
+  width: 220px;
+  height: 260px;
+  background-color: #C5CBE1;
+  border-color: black;
+  border-radius: 1px;
+  border-width: 1px;
+  border: #111;
+  margin: 5px;
+  padding: 2px;
+  border-style: solid;
+  box-shadow: 0 7px 10px rgba(0,0,0.5);
+  font-family: "Times New Roman", Times, serif;
+ animation: movedown 2s linear 0.5;
+}
+.hove:hover{
+	transform : scale(.95);
+}
+
+.btn-view-profile{
+  height: 30px;
+  background-color: #3a3939;
+  font-size: 15px;
+  color: white;
+  border-radius: 15px;
+  text-align: Center;
+  margin: 5px;
+  width: 120px;
+  margin-bottom: 30px;
+}

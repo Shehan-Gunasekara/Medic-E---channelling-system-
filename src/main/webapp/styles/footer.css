@@ -1,0 +1,242 @@
+/* ---------------------- footer --------------------- */
+footer {
+  position: absolute;
+  top: 4800px;
+  width: 100%;
+}
+#footbg {
+  position: absolute;
+  width: 100%;
+  height: 436px;
+}
+
+footer h1 {
+  position: relative;
+  top: 40px;
+
+  width: 177px;
+  height: 75px;
+  left: 70px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #ffffff;
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+footer h1[data-scroll="in"] {
+  transform: translate(0);
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+footer li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+footer li a[data-scroll="in"] {
+  transform: translate(0);
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+.About li a {
+  text-decoration: none;
+  color: white;
+}
+
+.About li {
+  list-style: none;
+}
+
+.About {
+  position: absolute;
+  left: 69px;
+  top: 170px;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.first {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.aboutlist {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 2px;
+}
+
+.aboutlist :hover {
+  text-decoration: underline;
+}
+
+/* Customer service */
+
+.Customerservice li a {
+  text-decoration: none;
+  color: white;
+}
+
+.Customerservice li {
+  list-style: none;
+}
+
+.Customerservice {
+  position: absolute;
+  left: 240px;
+  top: 170px;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Customerservicelist {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 2px;
+}
+
+.Customerservicelist :hover {
+  text-decoration: underline;
+}
+
+/* informations */
+
+.Informations li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.Informations li {
+  list-style: none;
+}
+
+.Informations {
+  position: absolute;
+  left: 450px;
+  top: 170px;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.informationlist {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 2px;
+}
+
+.informationlist :hover {
+  text-decoration: underline;
+}
+
+#gplay {
+  position: absolute;
+  top: 275px;
+  left: 1200px;
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+#gplay[data-scroll="in"] {
+  transform: translate(0);
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+#gplay:hover {
+  transform: scale(1.1);
+}
+
+#icloud {
+  position: absolute;
+  top: 275px;
+  left: 1050px;
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+#icloud[data-scroll="in"] {
+  transform: translate(0);
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+#icloud:hover {
+  transform: scale(1.1);
+}
+
+.Socialmedia {
+  list-style: none;
+  position: absolute;
+  right: 69px;
+  top: 176.22px;
+  transition: 1s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.Socialmedia[data-scroll="in"] {
+  transform: translate(0);
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+.Socialmedia li {
+  margin-bottom: 28px;
+}
+
+#f1img:hover{
+    transform: scale(1.1);
+}
+
+#f2img:hover{
+    transform: scale(1.1);
+}
+
+#f3img:hover{
+    transform: scale(1.1);
+}
+
+Footer h2 {
+  position: relative;
+  left: 1199px;
+  top: 300px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  width: 272px;
+  color: white;
+}

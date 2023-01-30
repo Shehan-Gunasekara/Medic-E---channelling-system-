@@ -1,0 +1,45 @@
+body{
+    background-color: #EEEEFF;
+}
+
+.sidebar{
+    background-color: #FFF;
+    position: fixed;
+    height: 100%;
+    padding-top: px;
+    text-align: center;
+    max-width: 15%;
+    float: left;
+    z-index : 1;
+}
+
+.sidebar-link{
+    text-align: left;
+    margin: 5px auto;
+}
+
+.sidebar-link:hover{
+    background-color: #0059DE;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.region-main{
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 12%;
+}
+
+.logo-side{
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+.logout-btn{
+    width: auto;
+    margin-top: 250px;
+    position: relative;
+}
+
+

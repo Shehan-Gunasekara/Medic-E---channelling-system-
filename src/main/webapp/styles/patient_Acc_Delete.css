@@ -1,0 +1,22 @@
+body{
+	background-image: linear-gradient(45deg, #87aee7, #6428ad);
+}
+
+form{
+	font-size:32px;
+	text-align:center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family:poppins;
+	
+}
+
+.button{
+	width:100px;
+	height:30px;
+	background-color:white;
+	border:none;
+}

@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+    position: fixed;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+
+.arrow {
+  border: solid #666666;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px 5px 5px 2px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+section .contentBx .formBx h4{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+
+}
+
+section .contentBx .formBx h4 a{
+    text-decoration: none;
+    color: #666666;
+}
+
+section .contentBx .formBx {
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  left: 850px;
+  top: 40px;
+}
+
+section .contentBx .formBx label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #666666;
+}
+
+section .contentBx .formBx .textbx {
+  background: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  height: 48px;
+  width: 492px;
+  left: 798px;
+  top: 272.02490234375px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+section .contentBx .formBx h2 {
+  width: 163px;
+  height: 56px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #000000;
+}
+
+#signinSubmit {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+
+  margin-top: 100px;
+
+  width: 492px;
+  height: 58px;
+
+  background: #0c48bd;
+  border-radius: 20px;
+  border: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+section .contentBx .formBx .remember {
+  width: 495px;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+
+section .contentBx .formBx .remember p {
+  float: left;
+}
+
+section .contentBx .formBx .remember a {
+  float: right;
+}
+
+#dhaA {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 490px;
+  height: 22px;
+
+  color: #727272;
+  margin-top: 80px;
+  font-size: 16px;
+}
+
+#sicheckbox{
+    color: #5991FF;
+    padding-bottom: 5px;
+}
+
+section .contentBx .formBx a{
+    color: #5991FF;
+}
+
+#sicheck {
+    accent-color: #5991FF;
+    height: 12px; /* not needed */
+    width: 12px; /* not needed */
+    margin-right: 5px;
+
+
+}
+

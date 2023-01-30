@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+         	<servlet-name>Adddoc</servlet-name>
+         	<servlet-class>com.admin.addDocServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>Adddoc</servlet-name>
+         	<url-pattern>/doc</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>AddHos</servlet-name>
+         	<servlet-class>com.admin.addHospitalServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>AddHos</servlet-name>
+         	<url-pattern>/hos</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>DoctorList</servlet-name>
+         	<servlet-class>com.admin.DoctorListServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>DoctorList</servlet-name>
+         	<url-pattern>/Doctorlist</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>SearchDoctorList</servlet-name>
+         	<servlet-class>com.admin.SearchDoctorListServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>SearchDoctorList</servlet-name>
+         	<url-pattern>/search</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>DeleteDoctor</servlet-name>
+         	<servlet-class>com.admin.deleteDoctorServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>DeleteDoctor</servlet-name>
+         	<url-pattern>/delete</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>HospitalList</servlet-name>
+         	<servlet-class>com.admin.HospitalListServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>HospitalList</servlet-name>
+         	<url-pattern>/HosList</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>SearchHospitalList</servlet-name>
+         	<servlet-class>com.admin.SearchHospitalListServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>SearchHospitalList</servlet-name>
+         	<url-pattern>/searchhos</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+         	<servlet-name>DeleteHospital</servlet-name>
+         	<servlet-class>com.admin.deleteHospitalServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>DeleteHospital</servlet-name>
+         	<url-pattern>/deletehos</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+         	<servlet-name>ViewDoctors</servlet-name>
+         	<servlet-class>com.admin.ViewDoctorsServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>ViewDoctors</servlet-name>
+         	<url-pattern>/ViewDoc</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>ViewDoctorsSearch</servlet-name>
+         	<servlet-class>com.admin.ViewSearchDoctorsServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>ViewDoctorsSearch</servlet-name>
+         	<url-pattern>/searchViewDoc</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>ViewHospital</servlet-name>
+         	<servlet-class>com.admin.ViewHospitalServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>ViewHospital</servlet-name>
+         	<url-pattern>/ViewHos</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>ViewHospitalSearch</servlet-name>
+         	<servlet-class>com.admin.ViewSearchHospitalServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>ViewHospitalSearch</servlet-name>
+         	<url-pattern>/searchViewhos</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>UpdateDoctor</servlet-name>
+         	<servlet-class>com.admin.UpdateDoctorServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>UpdateDoctor</servlet-name>
+         	<url-pattern>/UpdateDoc</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>UpdateHospital</servlet-name>
+         	<servlet-class>com.admin.UpdateHospitalServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>UpdateHospital</servlet-name>
+         	<url-pattern>/UpdateHos</url-pattern>
+         </servlet-mapping>
+         
+ </web-app>
